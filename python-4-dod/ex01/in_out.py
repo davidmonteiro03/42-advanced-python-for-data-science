@@ -4,12 +4,14 @@ def square(x: int | float) -> int | float:
 
 
 def pow(x: int | float) -> int | float:
-    """This is a function that returns the number raised to the power of itself."""
+    """This is a function that returns the number \
+raised to the power of itself."""
     return x ** x
 
 
 def outer(x: int | float, function) -> object:
-    """This is a function that returns an inner function which applies the given function to a count."""
+    """This is a function that returns an inner function \
+which applies the given function to a count."""
     count = x
 
     def inner() -> float:
